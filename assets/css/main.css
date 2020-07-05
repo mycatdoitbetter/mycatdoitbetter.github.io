@@ -2683,6 +2683,10 @@ input[type="radio"] + label:before {
   align-self: center;
 }
 
+.image-fit-profile img {
+  border-radius: 0.25em;
+  display: block;
+}
 .image img {
   border-radius: 0.25em;
   display: block;
@@ -2715,7 +2719,16 @@ input[type="radio"] + label:before {
   margin: 0 0 2em 0;
   width: 100%;
 }
+.image-fit-profile {
+  display: flex;
+  margin: 0 0 2em 0;
+  width: 100%;
+  justify-content: center;
+}
 
+.image-fit-profile img {
+  width: 30%;
+}
 .image.fit img {
   width: 100%;
 }
@@ -2908,7 +2921,6 @@ ul.contact {
   -webkit-columns: 2;
   -moz-columns: 2;
   list-style: none;
-  padding: 0;
 }
 
 ul.contact > li {
@@ -2952,6 +2964,9 @@ ul.icons li > span .label {
 ul.menu {
   list-style: none;
   padding: 0;
+}
+ul.menu li strong {
+  color: rgba(255, 255, 255, 0.5);
 }
 
 ul.menu > li {
