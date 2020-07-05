@@ -306,10 +306,10 @@ h1.major {
 }
 
 h1.major:after {
-  background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-  background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-  background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-  background-image: linear-gradient(to right, #5e42a6, #b74e91);
+  background-image: -moz-linear-gradient(to right, #5e42a6, #7cae7a);
+  background-image: -webkit-linear-gradient(to right, #5e42a6, #7cae7a);
+  background-image: -ms-linear-gradient(to right, #5e42a6, #7cae7a);
+  background-image: linear-gradient(to right, #5e42a6, #7cae7a);
   -moz-transition: max-width 0.2s ease;
   -webkit-transition: max-width 0.2s ease;
   -ms-transition: max-width 0.2s ease;
@@ -2646,11 +2646,11 @@ input[type="radio"] + label:before {
 }
 
 .wrapper.style3 .icon.major:before {
-  color: #b74e91;
+  color: #7cae7a;
 }
 
 .wrapper.style3-alt .icon.major:before {
-  color: #953d75;
+  color: #5a6b5c;
 }
 
 /* Image */
@@ -3357,11 +3357,11 @@ table.alt tfoot {
 }
 
 .wrapper.style3 {
-  background-color: #b74e91;
+  background-color: #7cae7a;
 }
 
 .wrapper.style3-alt {
-  background-color: #953d75;
+  background-color: #566659;
 }
 
 .wrapper.fullscreen {
@@ -3853,10 +3853,10 @@ body.is-ie #sidebar > .inner {
 }
 
 #sidebar nav a:after {
-  background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-  background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-  background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-  background-image: linear-gradient(to right, #5e42a6, #b74e91);
+  background-image: -moz-linear-gradient(to right, #5e42a6, #7cae7a);
+  background-image: -webkit-linear-gradient(to right, #5e42a6, #7cae7a);
+  background-image: -ms-linear-gradient(to right, #5e42a6, #7cae7a);
+  background-image: linear-gradient(to right, #5e42a6, #7cae7a);
   -moz-transition: max-width 0.2s ease;
   -webkit-transition: max-width 0.2s ease;
   -ms-transition: max-width 0.2s ease;
